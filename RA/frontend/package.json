@@ -1,0 +1,14 @@
+{
+  "name": "reverse-auction-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "axios": "^1.6.2"
+  },
+  "scripts": {
+    "start": "npx serve -s build",
+    "build": "npx create-react-app . && npm run build"
+  }
+}
